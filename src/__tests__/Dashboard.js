@@ -268,7 +268,7 @@ describe("Given I am a user connected as Admin", () => {
       )
       window.localStorage.setItem('user', JSON.stringify({
         type: 'Admin',
-        email: "a@a"
+        email: "admin@jc"
       }))
       const root = document.createElement("div")
       root.setAttribute("id", "root")
